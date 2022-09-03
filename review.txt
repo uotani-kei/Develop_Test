@@ -1,0 +1,7 @@
+https://github.com/ShoMatoba/test/blob/main/judge_maker.py
+
+指摘
+
+Eがない。
+
+変数の判定が実装されていない。
