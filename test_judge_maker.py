@@ -39,3 +39,11 @@ def test_make_judge_no5():
     result = make_judge('E', [10, 15, 100, 100, 100,
                         100, 100, 100, 100, 100])
     assert result == 3
+
+def test_make_judge_no6():
+    """マトリックスNo2 ←テストを行うマトリックスの番号
+    30点以下の点数が3回以上ある場合 ←テストの内容
+    """
+    result = make_judge('X', [10, 15, 100, 100, 100,
+                        100, 100, 100, 100, 100])
+    assert result == 3
